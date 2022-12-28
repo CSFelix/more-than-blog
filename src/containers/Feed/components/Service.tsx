@@ -1,6 +1,6 @@
 import CONFIG from 'morethan-log.config'
 import React from 'react'
-import { AiFillCodeSandboxCircle } from 'react-icons/ai'
+import { AiOutlineBarChart, AiOutlineDeploymentUnit } from 'react-icons/ai'
 
 const Product: React.FC = () => {
   if (!CONFIG.projects) return null
@@ -14,8 +14,17 @@ const Product: React.FC = () => {
           target="_blank"
           className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
         >
-          <AiFillCodeSandboxCircle className="text-2xl" />
+          <AiOutlineBarChart className="text-2xl" />
           <div className="text-sm">{CONFIG.projects[0].name}</div>
+        </a>
+        <a
+          href={`${CONFIG.projects[1].href}`}
+          rel="noreferrer"
+          target="_blank"
+          className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
+        >
+          <AiOutlineDeploymentUnit className="text-2xl" />
+          <div className="text-sm">{CONFIG.projects[1].name}</div>
         </a>
       </ul>
     </>

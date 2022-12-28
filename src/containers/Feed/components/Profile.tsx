@@ -22,7 +22,7 @@ const Profile: React.FC = () => {
         <div className=" text-xl mb-3 italic font-bold">
           {CONFIG.profile.name}
         </div>
-        <div className="mb-6 text-sm ">{CONFIG.profile.discription}</div>
+        <div className="mb-6 text-sm ">{CONFIG.profile.description}</div>
       </div>
     </>
   )

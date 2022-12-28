@@ -3,6 +3,7 @@ import React from 'react'
 import {
   AiOutlineInstagram,
   AiOutlineGithub,
+  AiOutlineCode,
   AiOutlineMail,
   AiFillLinkedin,
 } from 'react-icons/ai'
@@ -23,6 +24,19 @@ const Contact: React.FC = () => {
             <div className="text-sm">{CONFIG.profile.github}</div>
           </a>
         )}
+
+        {CONFIG.profile.kaggle && (
+          <a
+            hfer={`https://www.kaggle.com/${CONFIG.profile.kaggle}`}
+            rel="noreferrer"
+            target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
+          >
+            <AiOutlineCode className="text-2xl" />
+            <div className="text-sm">{CONFIG.profile.kaggle}</div>
+          </a>
+        )}
+
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
