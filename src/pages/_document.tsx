@@ -50,11 +50,11 @@ class MyDocument extends Document {
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/debian.png" />
           <link
             rel="apple-touch-icon"
             sizes="192x192"
-            href="/apple-touch-icon.png"
+            href="/debian.png"
           ></link>
           <link
             rel="alternate"
