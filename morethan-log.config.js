@@ -28,13 +28,16 @@ const CONFIG = {
   },
 
   // CONFIG configration
-  link: 'https://morethan-log.vercel.app',
+  link: 'https://csfelix.vercel.app',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   postsPerPage: 10,
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion', 'DataScience', 'Machine Learning'
+  , 'Deep Learning', 'Python', 'Numpy', 'Seaborn', 'Matplotlib', 'Matplot'
+  , 'Scikit Learn', 'SKLearn', 'Scikit', 'TensorFlow', 'Tensor Flow'
+  , 'Quantum Computation', 'Quantum', 'Qiskit'],
   },
 
   // notion configuration
