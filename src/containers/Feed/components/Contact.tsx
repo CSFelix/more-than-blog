@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
 
         {CONFIG.profile.kaggle && (
           <a
-            hfer={`https://www.kaggle.com/${CONFIG.profile.kaggle}`}
+            href={`https://www.kaggle.com/${CONFIG.profile.kaggle}`}
             rel="noreferrer"
             target="_blank"
             className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
