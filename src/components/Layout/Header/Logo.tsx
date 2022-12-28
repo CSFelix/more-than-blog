@@ -10,7 +10,7 @@ const Logo: React.FC<Props> = () => {
       <a aria-label={CONFIG.blog.title}>
         <div className="flex items-center">
           <div className="ml-2 text-black dark:text-white header-name">
-            {CONFIG.blog.title}
+            {CONFIG.blog.title} - {CONFIG.blog.description}
           </div>
         </div>
       </a>
