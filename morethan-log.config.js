@@ -18,6 +18,10 @@ const CONFIG = {
     {
       name: 'Working for FX Sistemas',
       href: 'https://www.fxsistemas.com.br',
+    },
+    {
+      name: 'Resume',
+      href: 'https://csfelix.github.io/assets/docs/curriulum-vitae-english.pdf',
     }
   ],
   // blog setting
