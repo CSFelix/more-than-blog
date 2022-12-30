@@ -1,6 +1,7 @@
 import CONFIG from 'morethan-log.config'
 import React from 'react'
 import { AiOutlineBarChart, AiOutlineDeploymentUnit, AiOutlineFilePdf } from 'react-icons/ai'
+import KaggleIcon from '../../../assets/kaggle.svg';
 
 const Product: React.FC = () => {
   if (!CONFIG.projects) return null
@@ -32,7 +33,8 @@ const Product: React.FC = () => {
           target="_blank"
           className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
         >
-          <AiOutlineFilePdf className="text-2xl" />
+          {/* <AiOutlineFilePdf className="text-2xl" /> */}
+          <img src={KaggleIcon} />
           <div className="text-sm">{CONFIG.projects[2].name}</div>
         </a>
       </ul>
