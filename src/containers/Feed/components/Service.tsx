@@ -34,7 +34,7 @@ const Product: React.FC = () => {
           className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white "
         >
           {/* <AiOutlineFilePdf className="text-2xl" /> */}
-          <img src={KaggleIcon} />
+          <KaggleIcon />
           <div className="text-sm">{CONFIG.projects[2].name}</div>
         </a>
       </ul>
